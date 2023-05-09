@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script data-ad-client="ca-pub-5274370025994358" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8FB675RP8Z"></script>
+  <script> window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8FB675RP8Z');
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script> $.getJSON("https://api.ipify.org?format=json",
+                                          function(data) {
+  
+            // Setting text of element P with id gfg
+            $("#gfg").html(data.ip);
+        })
+    </script>
+  <meta charset="utf-8">
+  <meta property="og:image" content="https://i.ibb.co/jfZVKmC/babi2.jpg"> 
+  <link rel="icon" type="image/png" href="https://i.ibb.co/jfZVKmC/babi2.jpg">
+  <meta name="keywords" content="KingOfBearAPI,SaipulAnuarA
+    PI, Saipul Anuar Api, Saipul Anuar,VikoAPI, viko-api, Free rest api, viko docs, vikodk67, zahir api, tobz api, studiovdk, programing unpas, studiovdk entertainment">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="free rest api king of bear beta version">
+  <meta name="author" content="KING OF BEAR">
+  <title>Saipul Anuar - Rest Api</title>
+  <link href="public2/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="public2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="public2/css/ruang-admin.min.css" rel="stylesheet">
+  <script src="public2/css/databs.js"></script>
+  <script src="public2/css/berita.js"></script>
+  <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+  <link href="public2/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <style> .loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+</head>
+
+<body id="page-top">
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center bg-info" href="#">
+        <div class="sidebar-brand-icon">
+          <span class="fas fa-fire"></span>
+        </div>
+        <div class="sidebar-brand-text mx-3">KING OF BEAR-API</div><br>
+      </a>
+      <hr class="sidebar-divider my-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="./">
+          <i class="fas fa-fw fa-code"></i>
+          <span>Index</span></a><br>
+      </li>
+      <hr class="sidebar-divider my-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="/search">
+          <i class="fas fa-fw fa-search"></i>
+          <span>Search</span></a>
+      <li class="nav-item active">
+        <a class="nav-link" href="./blog">
+          <i class="fas fa-fw fa-book"></i>
+          <span>Blog</span></a>
+      </li>
+      <hr class="sidebar-divider">
+      <div class="sidebar-heading"> List API </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap" aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="fas fa-download"></i>
+          <span>Social Media API</span>
+        </a>
+        <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Media Features</h6>
+            <a class="collapse-item" href="/api/download/fb?url=https://www.facebook.com/ngakakocak/videos/video-lucu-dan-gokil/607085686836013/">Facebook Downloader</a>
+            <a class="collapse-item" href="/api/downloader/instagram?url=https://www.instagram.com/p/CNtpwxuH5NK/?igshid=g26k5coikzwr">Instagram Download</a>
+            <a class="collapse-item" href="/api/downloader/allvideo?url=https://www.instagram.com/p/CNtpwxuH5NK/?igshid=g26k5coikzwr">All Video Download</a>
+            <a class="collapse-item" href="/api/download/mediafire?url=https://www.mediafire.com/file/izj8zhz28rgawyk/YT+ZanzHost.zip/file">Mediafire Downloader</a>
+            <a class="collapse-item" href="/api/download/mediafire-v2?url=https://www.mediafire.com/file/izj8zhz28rgawyk/YT+ZanzHost.zip/file">Mediafire Downloader V2</a>
+            <a class="collapse-item" href="/api/download/happymod?query=free%20fire">HappyMod Downloader</a>
+            <a class="collapse-item" href="/api/search/pinterest?query=loli">Pinterest Downloader</a>
+            <a class="collapse-item" href="/api/pinterest?query=loli">Pinterest Downloader V2</a>
+            <a class="collapse-item" href="/api/download/soundcloud?url=https://soundcloud.com/ndaa-212683099/dj-coba-kau-ingat-ingat-kembali-seharusnya-aku-jungle-dutch-terbaru-2021-full-bass-viral-tik?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">SoundCloud Download</a>
+            <a class="collapse-item" href="/api/download/stickersearch?text=lucu">Sticker Search</a>
+            <a class="collapse-item" href="/api/download/tiktok?url=https://vt.tiktok.com/ZSRG695C8/">Tiktok Download V1</a>
+            <a class="collapse-item" href="/api/download/tiktok2?url=https://vt.tiktok.com/ZSRG695C8/">Tiktok Download V2</a>
+            <a class="collapse-item" href="/api/download/tiktok3?url=https://vt.tiktok.com/ZSRG695C8/">Tiktok Download V3</a>
+            <a class="collapse-item" href="/api/download/tiktok4?url=https://vt.tiktok.com/ZSRG695C8/">Tiktok Download V4</a>
+            <a class="collapse-item" href="/api/download/tiktokview?url=https://vt.tiktok.com/ZSRG695C8/">Tiktok Viewers</a>
+            <a class="collapse-item" href="/api/download/telesticker?url=https://t.me/addstickers/Mayb_e">Tele Sticker Download</a>
+            <a class="collapse-item" href="/api/search/wikimedia?query=viral">Wikimedia Download</a>
+            <a class="collapse-item" href="/api/download/xnxx?query=japan">Xnxx Search</a>
+            <a class="collapse-item" href="/api/download/xvideo?query=japan">Xvideo Search</a>
+            <a class="collapse-item" href="/api/download/ytmp3?url=https://youtu.be/Nq5rzeJ5Ab4">Youtube Mp3 Download</a>
+            <a class="collapse-item" href="/api/download/ytmp4?url=https://youtu.be/Nq5rzeJ5Ab4">Youtube Mp4 Download</a>
+            <a class="collapse-item" href="/api/download/ytmp4-v2?url=https://youtu.be/Nq5rzeJ5Ab4">Youtube Mp4 Download V2</a>
+            <a class="collapse-item" href="/api/yt/playmp3?query=Dj-slow">Youtube Play Mp3</a>
+            <a class="collapse-item" href="/api/yt/playmp4?query=Dj-slowbass">Youtube Play Mp4</a>
+            <a class="collapse-item" href="/api/yt/search?query=Dj-slowbass">Youtube Searching</a>
+            <h6 class="collapse-header">Stalker Features</h6>
+            <a class="collapse-item" href="/api/stalk/ig?username=drak_ipul123">Instagram Stalker</a>
+            <a class="collapse-item" href="/api/stalk/tiktok?username=chikakiku">Tiktok Stalker</a>
+            <a class="collapse-item" href="/api/info/randomtt?user=raraharsita2">Random TT Video</a>
+            <a class="collapse-item" href="api/download/tiktokstalk?username=chikakiku">Tiktok Stalker V2</a>
+            <a class="collapse-item" href="api/stalk/npm?username=hx">NPM Stalker</a>
+            <a class="collapse-item" href="/api/stalk/epep?id=1821481021">FF Stalker</a>
+            <a class="collapse-item" href="/api/stalk/ml?id=159745549&amp;server=2822">Mobile Legends Stalker</a>
+            <a class="collapse-item" href="/api/stalk/nickhago?id=31148107">HAGO Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nickccfun?id=16427735">COCOFUN Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nickbgl?id=108689087">Bigo Live Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nicknmtv?id=2753124392">Nimo TV Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nickpubg?id=5473367779">Pubg Mobile Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nickmla?id=3937205&zoneid=40017">ML Adventure Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nicklokapala?id=YZTTG3CU">Lokapala Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nickzepeto?id=zepeto">Zepeto Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nicksausage?id=7fs17x">Sausage Man Stalker</a>
+            <a class="collapse-item" href="/api/stalker/nickpb?id=dani123">Point Blank Stalker</a>
+            <a class="collapse-item" href="/api/stalk/higgs?id=382186535">Higgs Stalker <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Premium</span></a>
+            <a class="collapse-item" href="/api/stalk/aov?id=149235014960285">AOV Stalker <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Premium</span></a>
+            <a class="collapse-item" href="/api/stalk/codm?id=10808316016143544796">CODM Stalker <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Premium</span></a>
+            <a class="collapse-item" href="/api/stalk/speed-drifters?id=11822383813845047">Speed Drifters Stalker<span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Prem</span></a>
+            <a class="collapse-item" href="/api/stalk/life-after?id=12108754&amp;server=SandCastle=">Life After Stalker <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Premium</span></a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseMusic" aria-expanded="true" aria-controls="collapseMusic">
+          <i class="fas fa-music"></i>
+          <span>Music Api</span>
+        </a>
+        <div id="collapseMusic" class="collapse" aria-labelledby="headingMusic" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Music API</h6>
+            <a class="collapse-item" href="/api/music/joox?query=denny caknan">Joox Search</a>
+            <a class="collapse-item" href="/api/music/liriklagu?query=sayang">Search Lirik Lagu</a>
+            <a class="collapse-item" href="/api/music/chordlagu?lagu=sayang">Search Chord Lagu</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseIslamic" aria-expanded="true" aria-controls="collapseIslamic">
+          <i class="fas fa-star-and-crescent"></i>
+          <span>Islamic Features</span>
+        </a>
+        <div id="collapseIslamic" class="collapse" aria-labelledby="headingIslamic" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Islamic API</h6>
+            <a class="collapse-item" href="/api/muslim/hadits?kitab=bukhari&amp;nomor=52">Hadits Shahih</a>
+            <a class="collapse-item" href="/api/muslim/quran?surah=1&amp;ayat=2">Al Qur'an</a>
+            <a class="collapse-item" href="/api/muslim/tafsirsurah?surah=al maidah">Tafsir Surah</a>
+            <a class="collapse-item" href="/api/muslim/tahlil">Doa Tahlil</a>
+            <a class="collapse-item" href="/api/muslim/wirid">Doa Wirid</a>
+            <a class="collapse-item" href="/api/muslim/asmaulhusna">Asmaul Husna</a>
+            <a class="collapse-item" href="/api/muslim/doaharian">Doa Harian</a>
+            <a class="collapse-item" href="/api/muslim/ayatkursi">Ayat Kursi</a>
+            <a class="collapse-item" href="/api/muslim/kisahnabi?nabi=muhammad">Kisah Nabi</a>
+            <a class="collapse-item" href="/api/muslim/niatshalat">Niat Shalat</a>
+            <a class="collapse-item" href="/api/muslim/bacaanshalat">Bacaan Shalat</a>
+            <a class="collapse-item" href="/api/muslim/jadwalshalat?kota=batam">Jadwal Shalat</a>
+            <a class="collapse-item" href="/api/random/quotes/muslim">Quotes Islami</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseWallpaper" aria-expanded="true" aria-controls="collapseKodepos">
+          <i class="fas fa-image"></i>
+          <span>Random API</span>
+        </a>
+        <div id="collapseWallpaper" class="collapse" aria-labelledby="headingKodepos" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Random Image API</h6>
+            <a class="collapse-item" href="/api/random/couple">PP Couple</a>
+            <a class="collapse-item" href="api/search/image?query=chikaku">Search Image</a>
+            <a class="collapse-item" href="/api/maker/dadu">Random DADU</a>
+            <a class="collapse-item" href="/api/wallpaper/teknologi">Wallpaper Teknologi</a>
+            <a class="collapse-item" href="/api/wallpaper/programming">Wallpaper Programming</a>
+            <a class="collapse-item" href="/api/wallpaper/cyberspace">Wallpaper CyberSpace</a>
+            <a class="collapse-item" href="/api/wallpaper/muslim">Wallpaper Muslim</a>
+            <a class="collapse-item" href="/api/wallpaper/pegunungan">Wallpaper Pegunungan</a>
+            <h6 class="collapse-header">Time Line API/Asupan</h6>
+            <a class="collapse-item" href="/api/asupan">Random Asupan</a>
+            <a class="collapse-item" href="/api/asupan2">Random Asupan2</a>
+            <a class="collapse-item" href="/api/asupan/santuy">Asupan Santuy</a>
+            <a class="collapse-item" href="/api/asupan/hijaber">Asupan Hijaber</a>
+            <a class="collapse-item" href="/api/asupan/ukhty">Asupan Ukhty</a>
+            <a class="collapse-item" href="/api/asupan/bocil">Asupan Bocil</a>
+            <a class="collapse-item" href="/api/asupan/gheayubi">Asupan Gheayubi</a>
+            <a class="collapse-item" href="/api/asupan/rikagusriani">Asupan Rikagusriani</a>
+            <h6 class="collapse-header">Cecan API</h6>
+            <a class="collapse-item" href="/api/cecan/random">Random</a>
+            <a class="collapse-item" href="/api/cecan/hijaber">Hijaber</a>
+            <a class="collapse-item" href="/api/cecan/china">China</a>
+            <a class="collapse-item" href="/api/cecan/indonesia">Indonesia</a>
+            <a class="collapse-item" href="/api/cecan/korea">Korea</a>
+            <a class="collapse-item" href="/api/cecan/japan">Japan</a>
+            <a class="collapse-item" href="/api/cecan/malaysia">Malaysia</a>
+            <a class="collapse-item" href="/api/cecan/thailand">Thailand</a>
+            <a class="collapse-item" href="/api/cecan/vietnam">Vietnam</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseMaker" aria-expanded="true" aria-controls="collapseMaker">
+          <i class="fas fa-fw fa-images"></i>
+          <span>Image Maker API</span>
+        </a>
+        <div id="collapseMaker" class="collapse" aria-labelledby="headingText" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="/api/textmaker/quoteser?text=ingatlah suatu hal yang terbaik akan datang di waktu yang tepat">Quotemaker</a>
+            <a class="collapse-item" href="/api/textmaker/quobucin?text=ingatlah suatu hal yang terbaik akan datang di waktu yang tepat">Quotemaker2</a>
+            <a class="collapse-item" href="/api/maker/nulis?text=bear ganteng kata mamak">Nulis Buku</a>
+            <a class="collapse-item" href="/api/maker/nulis2?text=bear ganteng kata mamak">Nulis Buku V2</a>
+            <a class="collapse-item" href="/api/textmaker/digital?text=bear ganteng kata mamak">Nulis Digital</a>
+            <a class="collapse-item" href="/api/maker/pubeje?text=FREE%20FIRE&amp;text2=BATTLEGROUND">Pubg logo</a>
+            <a class="collapse-item" href="/api/maker/gammer">Wallpaper Gamming</a>
+            <a class="collapse-item" href="/api/maker/joker?text=King Of Bear">Joker logo</a>
+            <a class="collapse-item" href="/api/maker/ttp?text=Bear">Text To Picture (TTP)</a>
+            <a class="collapse-item" href="/api/maker/ttp2?text=Bear">Text To Picture (TTP) V2</a>
+            <a class="collapse-item" href="/api/maker/attp?text=Bear">Attp To GIF</a>
+            <a class="collapse-item" href="/api/maker/attp2?text=Bear">Attp To GIF V2</a>
+            <a class="collapse-item" href="/api/maker/attp3?text=Bear">Attp To GIF V3</a>
+            <a class="collapse-item" href="/api/maker/emoji2png?text=😂">Emoji To Png <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+            <hr>
+            <a class="collapse-item" href="/api/maker/skatch?url=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbmrYfgiRt1lLwNgRMgMbID62qH3EQ2T1c6RUJEQMcoCWKqVVxAg7R_LfM&amp;s=10">Skatch Effect <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEphoto360" aria-expanded="true" aria-controls="collapseEphoto360">
+          <i class="fas fa-fw fa-images"></i>
+          <span>Ephoto360 Maker API</span>
+        </a>
+        <div id="collapseEphoto360" class="collapse" aria-labelledby="headingText" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Button Features</h6>
+            <a class="collapse-item" href="/api/maker/youtube-silver-button?text=KING OF BEAR">Youtube Silver Button</a>
+            <a class="collapse-item" href="/api/maker/youtube-gold-button?text=KING OF BEAR">Youtube Gold Button</a>
+            <a class="collapse-item" href="/api/maker/instagram-silver-button?text=KING OF BEAR">Instagram Silver Button</a>
+            <a class="collapse-item" href="/api/maker/instagram-gold-button?text=KING OF BEAR">Instagram Gold Button</a>
+            <a class="collapse-item" href="/api/maker/facebook-silver-button?text=KING OF BEAR">Facebook Silver Button</a>
+            <a class="collapse-item" href="/api/maker/facebook-gold-button?text=KING OF BEAR">Facebook Gold Button</a>
+            <a class="collapse-item" href="/api/maker/twitter-silver-button?text=KING OF BEAR">Twitter Silver Button</a>
+            <a class="collapse-item" href="/api/maker/twitter-gold-button?text=KING OF BEAR">Twitter Gold Button</a>
+            <h6 class="collapse-header">Banner Features</h6>
+            <a class="collapse-item" href="/api/maker/ashe-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Ashe Banner</a>
+            <a class="collapse-item" href="/api/maker/brigitte-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Brigitte Banner</a>
+            <a class="collapse-item" href="/api/maker/doomfist-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Doomfist Banner</a>
+            <a class="collapse-item" href="/api/maker/junker-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Junker Queer Banner</a>
+            <a class="collapse-item" href="/api/maker/junkrat-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Junkrat Banner</a>
+            <a class="collapse-item" href="/api/maker/kiriko-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Kiriko Banner</a>
+            <a class="collapse-item" href="/api/maker/mercy-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Mercy Banner</a>
+            <a class="collapse-item" href="/api/maker/reaper-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Reaper Banner</a>
+            <a class="collapse-item" href="/api/maker/sojourn-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Sojourn Banner</a>
+            <a class="collapse-item" href="/api/maker/symmetra-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Symmetra Banner</a>
+            <a class="collapse-item" href="/api/maker/tracer-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Tracer Banner</a>
+            <a class="collapse-item" href="/api/maker/zarya-banner?text=KING OF BEAR&amp;text2=BOT WHATSAPP">Zarya Banner</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePhotooxy" aria-expanded="true" aria-controls="collapsePhotooxy">
+          <i class="fas fa-fw fa-images"></i>
+          <span>Photooxy API</span>
+        </a>
+        <div id="collapsePhotooxy" class="collapse" aria-labelledby="headingText" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Photooxy API</h6>
+            <a class="collapse-item" href="/api/photooxy/shadow?text=Ayang bear">Shadow Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/romantic?text=Ayang bear">Romantic Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/smoke?text=Ayang bear">Smoke text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/burn-paper?text=Ayang bear">Burn-paper Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/naruto?text=Ayang bear">Naruto Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/love-message?text=Ayang bear">Love-Message Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/message-under-grass?text=Ayang bear">Message Under Grass</a>
+            <a class="collapse-item" href="/api/photooxy/double-heart?text=Ayang bear">Double Heart</a>
+            <a class="collapse-item" href="/api/photooxy/coffe-cup?text=Ayang bear">Coffe-cup Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/love-text?text=Ayang bear">Love-Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/butterfly?text=Ayang bear">Butterfly Text Effect</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTextpro" aria-expanded="true" aria-controls="collapseTextpro">
+          <i class="fas fa-fw fa-images"></i>
+          <span>Textpro me API</span>
+        </a>
+        <div id="collapseTextpro" class="collapse" aria-labelledby="headingAnime" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Textpro Me Features</h6>
+            <a class="collapse-item" href="/api/textpro/natural-leaves?text=bear sayang">Natural Leaves Text</a>
+            <a class="collapse-item" href="/api/textpro/black-pink?text=bear sayang">Black Pink Text Image</a>
+            <a class="collapse-item" href="/api/textpro/blackpink?text=King Of Bear">Black Pink 2 Text Image</a>
+            <a class="collapse-item" href="/api/textpro/horrorblood?text=King Of Bear">Horror Blood Text Image</a>
+            <a class="collapse-item" href="/api/textpro/drop-water?text=bear sayang">Drop Water Text Image</a>
+            <a class="collapse-item" href="/api/textpro/logo-wolf?text=bear&amp;text2=Sayang">Logo Wolf Text Image</a>
+            <a class="collapse-item" href="/api/textpro/logo-wolf2?text=bear&amp;text2=Sayang">Logo Wolf Text Gradient</a>
+            <a class="collapse-item" href="/api/textpro/christmas?text=bear sayang">Christmas Text Image</a>
+            <a class="collapse-item" href="/api/textpro/3d-gradient?text=bear sayang">3D Gradient Text Image</a>
+            <a class="collapse-item" href="/api/textpro/youtub-hub?text1=bear&amp;text2=Sayang">Yutup Hub Text Image</a>
+            <a class="collapse-item" href="/api/textpro/matrix?text=bear">Matrix Text Image</a>
+            <a class="collapse-item" href="/api/textpro/harry-potter?text=bear">Harry potter Text Image</a>
+            <a class="collapse-item" href="/api/textpro/neondevil?text=bear">Neon Devil Text Image</a>
+            <a class="collapse-item" href="/api/textpro/neon?text=King Of Bear">Neon Text Image</a>
+            <a class="collapse-item" href="/api/textpro/marvel?text1=Marvel&amp;text2=Studitod">Marvel Text Image</a>
+            <a class="collapse-item" href="/api/textpro/glitch2?text1=Studiovdk&amp;text2=mr-bear">Glitch Text Image</a>
+            <a class="collapse-item" href="/api/textpro/silvermetal?text1=Studiovdk&amp;text2=mr-bear">Silver metal Text</a>
+            <a class="collapse-item" href="/api/textpro/transfomer?text=KingOfBear">Transfomer Text Img</a>
+            <a class="collapse-item" href="/api/textpro/sketsa?text=KingOfBear">Sketsa Pensil Text Img</a>
+            <a class="collapse-item" href="/api/textpro/styletext?text=King Of Bear">Font Tulisan Keren</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSertifikat" aria-expanded="true" aria-controls="collapseSertifikat">
+          <i class="fas fa-fw fa-images"></i>
+          <span>Sertifikat</span>
+        </a>
+        <div id="collapseSertifikat" class="collapse" aria-labelledby="headingSertifikat" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Sertifikat Features</h6>
+            <a class="collapse-item" href="/api/sertifikat/tolol&amp;name=King Of Bear">Sertifikat Tolol <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+            <a class="collapse-item" href="/api/sertifikat/fuckboy&amp;name=King Of Bear">Sertifikat FuckBoy <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+            <a class="collapse-item" href="/api/sertifikat/fuckgirl&amp;name=King Of Bear">Sertifikat FuckGirl <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+            <a class="collapse-item" href="/api/sertifikat/bucinserti&amp;name=King Of Bear">Sertifikat Bucin <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+            <a class="collapse-item" href="/api/sertifikat/pacarserti&amp;name1=King Of Bear&amp;name2=mr-bear">Sertifikat Pacar <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCreator" aria-expanded="true" aria-controls="collapseCreator">
+          <i class="fas fa-fw fa-images"></i>
+          <span>Creator</span>
+        </a>
+        <div id="collapseCreator" class="collapse" aria-labelledby="headingCreator" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Welcome Features</h6>
+            <a class="collapse-item" href="/api/canvas/welcome?name=Saipul&gcname=King%20Of%20Bear&pp=https://i.ibb.co/1K0QbJk/IMG-20201219-130032-147.jpg&bg=https://telegra.ph/file/6ab4daac226292a112540.jpg&membercount=35&gcicon=https://i.ibb.co/jfZVKmC/babi2.jpg">Welcome 1</a>
+            <a class="collapse-item" href="/api/canvas/welcome4?name=Saipul%20Anuar&gcname=King%20Of%20Bear&pp=https://i.ibb.co/1K0QbJk/IMG-20201219-130032-147.jpg&bg=https://t-2.tstatic.net/lampung/foto/bank/images/arti-mimpi-berjalan-di-hutan-pertanda-diri-sedang-cemas.jpg">Welcome 2</a>
+            <a class="collapse-item" href="/api/canvas/welcome2?name=Saipul&gcname=King%20Of%20Bear&pp=https://i.ibb.co/1K0QbJk/IMG-20201219-130032-147.jpg&bg=https://telegra.ph/file/6ab4daac226292a112540.jpg&membercount=35">Welcome 3</a>
+            <h6 class="collapse-header">Leave Features</h6>
+            <a class="collapse-item" href="/api/canvas/goodbye4?name=Saipul%20Anuar&gcname=King%20Of%20Bear&pp=https://i.ibb.co/1K0QbJk/IMG-20201219-130032-147.jpg&bg=https://t-2.tstatic.net/lampung/foto/bank/images/arti-mimpi-berjalan-di-hutan-pertanda-diri-sedang-cemas.jpg">GoodBye 1</a>
+            <a class="collapse-item" href="/api/canvas/goodbye?name=KingOfBear&pp=https://i.ibb.co/1K0QbJk/IMG-20201219-130032-147.jpg&bg=https://t-2.tstatic.net/lampung/foto/bank/images/arti-mimpi-berjalan-di-hutan-pertanda-diri-sedang-cemas.jpg&desk=Loh kok out">GoodBye 2</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRandom" aria-expanded="true" aria-controls="collapseRandom">
+          <i class="fas fa-random"></i>
+          <span>Random API</span>
+        </a>
+        <div id="collapseRandom" class="collapse" aria-labelledby="headingGithub" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Random API</h6>
+            <a class="collapse-item" href="/api/quotes">Quotes</a>
+            <a class="collapse-item" href="/api/fakta">Fakta</a>
+            <a class="collapse-item" href="/api/kata-bijak">Kata bijak</a>
+            <a class="collapse-item" href="/api/random/pantun">Pantun</a>
+            <h6 class="collapse-header">Meme menu</h6>
+            <a class="collapse-item" href="/api/random/meme">Meme</a>
+            <a class="collapse-item" href="/api/memeh">Meme Indo</a>
+            <a class="collapse-item" href="/api/loli">Loli</a>
+            <a class="collapse-item" href="/api/nsfwloli">Nsfw Loli</a>
+            <a class="collapse-item" href="/api/bokepig">Bokepig</a>
+            <a class="collapse-item" href="/api/darkjoke">Dark Joke</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAnime" aria-expanded="true" aria-controls="collapseAnime">
+          <i class="fas fa-cat"></i>
+          <span>Anime/Manga API</span>
+        </a>
+        <div id="collapseAnime" class="collapse" aria-labelledby="headingAnime" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Anime/Manga Features</h6>
+            <a class="collapse-item" href="/api/anime/kusonime?search=planetarian">Kusonime <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+            <a class="collapse-item" href="/api/anime/manga?search=kimetsu no yaiba">Manga</a>
+          </div>
+        </div>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseGames" aria-expanded="true" aria-controls="collapseForm">
+          <i class="fas fa-laugh-beam"></i>
+          <span>Fun API</span>
+        </a>
+        <div id="collapseGames" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Fun Features</h6>
+            <a class="collapse-item" href="/api/cerpen/random">Cerpen Random</a>
+            <a class="collapse-item" href="/api/cerpen/cinta">Cerpen Cinta</a>
+            <a class="collapse-item" href="/api/cerpen/horor">Cerpen Horor</a>
+            <a class="collapse-item" href="/api/kuis/caklontong">Cak Lontong</a>
+            <a class="collapse-item" href="/api/kuis/asahotak">Asah Otak</a>
+            <a class="collapse-item" href="/api/kuis/family100">Family 100</a>
+            <a class="collapse-item" href="/api/kuis/siapakahaku">Siapakah Aku</a>
+            <a class="collapse-item" href="/api/kuis/susunkata">Susun Kata</a>
+            <a class="collapse-item" href="/api/kuis/tebaktebakan">Tebak Tebakan</a>
+            <a class="collapse-item" href="/api/kuis/tebaklirik">Tebak Lirik</a>
+            <a class="collapse-item" href="/api/kuis/tebakkalimat">Tebak Kalimat</a>
+            <a class="collapse-item" href="/api/kuis/tekateki">Teka Teki</a>
+            <a class="collapse-item" href="/api/kuis/tebakjenaka">Tebak Jenaka</a>
+            <a class="collapse-item" href="/api/random/artinama?name=Saipul Anuar">Arti nama</a>
+            <a class="collapse-item" href="/api/kuis/tebakgambar">Tebak Gambar</a>
+            <a class="collapse-item" href="/api/kuis/tebakbendera">Tebak Bendera</a>
+            <a class="collapse-item" href="/api/hilih?text=bear ganteng banget njir no debat">Kata Hilih</a>
+            <a class="collapse-item" href="/api/f/simi?text=simii">Simi simi bot</a>
+            <a class="collapse-item" href="/api/fun/simi?text=hai%20simi&amp;lang=id">Simi simi bot 2</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseItem" aria-expanded="true" aria-controls="collapseForm">
+          <i class="fas fa-wrench"></i>
+          <span>Tools API</span>
+        </a>
+        <div id="collapseItem" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Tools Features</h6>
+            <a class="collapse-item" href="/api/hack/sms?query=nomortelp">SPAM SMS</a>
+            <a class="collapse-item" href="/api/text-to-audio/tts?text=seorang anak menyelamatkan burungnya yang lepas&amp;idbahasa=id">Text To Audio</a>
+            <a class="collapse-item" href="/api/hack/tlpn?query=nomortelp">SPAM TELPON</a>
+            <a class="collapse-item" href="/api/web2plain-text&amp;url=https://login-apikeybear.herokuapp.com/">Web To Plain-Text <span class="sidebar-badge badge bg-primary" style="color: #ff0000;">Error</span></a>
+            <a class="collapse-item" href="/api/tools/wpuser&amp;url=http://gdjms.co.za/">Wordpress User</a>
+            <a class="collapse-item" href="/api/short/tinyurl?url=https://google.com">Shortlink Tinyurl</a>
+            <a class="collapse-item" href="/api/download/cariresep?query=ayam%20geprek">Cari Resep</a>
+            <a class="collapse-item" href="/api/download/bacaresep?url=https://resepkoki.id/resep/resep-ayam-geprek-keju/">Baca Resep</a>
+            <a class="collapse-item" href="/api/translate?kata=hi">Translate</a>
+            <a class="collapse-item" href="/api/translate2?text=selamat%20pagi&from=id&to=en">Translate V2</a>
+            <a class="collapse-item" href="/api/fakedata?country=en">Fake Data</a>
+            <a class="collapse-item" href="/api/download/ssweb?url=https://github.com/saipulanuar">Ss Web</a>
+            <a class="collapse-item" href="/api/download/ssweb2?url=https://github.com/saipulanuar">Ss Web V2</a>
+            <a class="collapse-item" href="/api/download/linkwa?query=mobile legends">Link Group Wa</a>
+            <a class="collapse-item" href="/api/sendmailCareer?from=autocrot1@gmail.com&to=uyulku100@gmail.com&subject=Ayang bear&text=Tess fitur rest api">Send Mailer</a>
+            <h6 class="collapse-header">Encrypt Tools</h6>
+            <a class="collapse-item" href="/api/base?type=base64&amp;encode=bear sayang sekali">Base64 Encrypt</a>
+            <a class="collapse-item" href="/api/base?type=base32&amp;encode=bear sayang sekali">Base32 Encrypt</a>
+            <a class="collapse-item" href="/api/tools/ebase64?text=DANIGANTENG" target="_blank">Base64 Encrypt V2</a>
+            <a class="collapse-item" href="/api/tools/ebase32?text=DANIGANTENG" target="_blank">Base32 Encrypt V2</a>
+            <a class="collapse-item" href="/api/tools/ebinary?text=DANIGANTENG" target="_blank">Binary Encrypt</a>
+            <h6 class="collapse-header">Decrypt Tools</h6>
+            <a class="collapse-item" href="/api/base?type=base64&amp;decode=bear sayang sekali">Base64 Decrypt</a>
+            <a class="collapse-item" href="/api/base?type=base32&amp;decode=bear sayang sekali">Base32 Decrypt</a>
+            <a class="collapse-item" href="/api/tools/dbase64?text=DANIGANTENG" target="_blank">Base64 Decrypt V2</a>
+            <a class="collapse-item" href="/api/tools/dbase32?text=DANIGANTENG" target="_blank">Base32 Decrypt V2</a>
+            <a class="collapse-item" href="/api/tools/dbinary?text=DANIGANTENG" target="_blank">Binary Decrypt</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#topupItem" aria-expanded="true" aria-controls="collapseForm">
+          <i class="fas fa-store"></i>
+          <span>TopUp API</span>
+        </a>
+        <div id="topupItem" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">TopUp FF Features</h6>
+            <a class="collapse-item" href="/api/topup/epep1?id=239814337&nomor=088279268363">Top Up FF 5 DM</a>
+            <a class="collapse-item" href="/api/topup/epep2?id=239814337&nomor=088279268363">Top Up FF 12 DM</a>
+            <a class="collapse-item" href="/api/topup/epep3?id=239814337&nomor=088279268363">Top Up FF 70 DM</a>
+            <a class="collapse-item" href="/api/topup/epep4?id=239814337&nomor=088279268363">Top Up FF 140 DM</a>
+            <a class="collapse-item" href="/api/topup/epep5?id=239814337&nomor=088279268363">Top Up FF 355 DM</a>
+            <a class="collapse-item" href="/api/topup/epep6?id=239814337&nomor=088279268363">Top Up FF 720 DM</a>
+          </div>
+        </div>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#convertItem" aria-expanded="true" aria-controls="collapseForm">
+          <i class="fas fa-store"></i>
+          <span>Convert Saldo API</span>
+        </a>
+        <div id="convertItem" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">GOPAY Features</h6>
+            <a class="collapse-item" href="/api/convert/gopay1?nomor=088279268363">GoPay 10.000</a>
+            <a class="collapse-item" href="/api/convert/gopay2?nomor=088279268363">GoPay 20.000</a>
+            <a class="collapse-item" href="/api/convert/gopay3?nomor=088279268363">GoPay 25.000</a>
+            <a class="collapse-item" href="/api/convert/gopay4?nomor=088279268363">GoPay 30.000</a>
+            <a class="collapse-item" href="/api/convert/gopay5?nomor=088279268363">GoPay 40.000</a>
+            <a class="collapse-item" href="/api/convert/gopay6?nomor=088279268363">GoPay 50.000</a>
+            <a class="collapse-item" href="/api/convert/gopay7?nomor=088279268363">GoPay 70.000</a>
+            <a class="collapse-item" href="/api/convert/gopay8?nomor=088279268363">GoPay 75.000</a>
+            <a class="collapse-item" href="/api/convert/gopay9?nomor=088279268363">GoPay 90.000</a>
+            <a class="collapse-item" href="/api/convert/gopay10?nomor=088279268363">GoPay 100.000</a>
+            <a class="collapse-item" href="/api/convert/gopay11?nomor=088279268363">GoPay 150.000</a>
+            <a class="collapse-item" href="/api/convert/gopay12?nomor=088279268363">GoPay 200.000</a>
+            <a class="collapse-item" href="/api/convert/gopay13?nomor=088279268363">GoPay 250.000</a>
+            <a class="collapse-item" href="/api/convert/gopay14?nomor=088279268363">GoPay 300.000</a>
+            <a class="collapse-item" href="/api/convert/gopay15?nomor=088279268363">GoPay 500.000</a>
+          </div>
+        </div>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#virtexItem" aria-expanded="true" aria-controls="collapseForm">
+          <i class="fas fa-wrench"></i>
+          <span>Virtex API</span>
+        </a>
+        <div id="virtexItem" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Virus Features</h6>
+            <a class="collapse-item" href="/api/virus/ngazap">Virtex 1</a>
+            <a class="collapse-item" href="/api/virus/philips">Virtex 2</a>
+            <a class="collapse-item" href="/api/virus/vir">Virtex 3</a>
+            <a class="collapse-item" href="/api/virus/virtex">Virtex 4</a>
+            <a class="collapse-item" href="/api/virus/virus">Virtex 5</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#WhmItem" aria-expanded="true" aria-controls="collapseForm">
+          <i class="fas fa-wrench"></i>
+          <span>Hosting API</span>
+        </a>
+        <div id="WhmItem" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Whm Features</h6>
+            <a class="collapse-item" href="/api/whm/totaluser?usrwhm=root&tokenwhm=W4JWLEKBCYAQ9K63G4E12V21K2OWIEBQ&server=yongnett.yongid.tech">Total User Whm</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseInfo" aria-expanded="true" aria-controls="collapseother">
+          <i class="fab fa-fw fa-wpforms"></i>
+          <span>Information API</span>  
+        </a>
+        <div id="collapseInfo" class="collapse" aria-labelledby="headingother" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Information Menu</h6>
+            <a class="collapse-item" href="/api/info/gempa">Info Gempa</a>
+            <a class="collapse-item" href="/api/info/cuaca?provinsi=jawa-barat&amp;kota=bandung">Info Cuaca</a>
+            <a class="collapse-item" href="/api/info/covidindo?provinsi=kepulauan riau">Covid Indo</a>
+            <a class="collapse-item" href="/api/info/covidworld">Covid World</a>
+            <a class="collapse-item" href="/api/info/wikipedia?search=gay">Wikipedia</a>
+            <a class="collapse-item" href="/api/info/drakorasia?search=tale">Drakor Asia</a>
+            <a class="collapse-item" href="/api/info/kbbi?kata=pohon">KBBI</a>
+            <a class="collapse-item" href="/api/info/genshin?query=albedo">Genshin Search Charackter</a>
+            <a class="collapse-item" href="/api/info/kodepos?provinsi=kepulauan riau">Kode Pos</a>
+            <a class="collapse-item" href="/api/info/berita?kota=batam">Berita Ramadhan</a>
+            <a class="collapse-item" href="/api/info/berita2?kota=batam">Berita Techno</a>
+            <a class="collapse-item" href="/api/info/jadwalmplid">Jadwal MPL ID</a>
+            <a class="collapse-item" href="/api/info/emoji?query=😀">Emoji</a>
+            <a class="collapse-item" href="/api/info/emojimix?emoji1=😀&emoji2=😀">Emoji Mix</a>
+          </div>
+        </div>
+      </li>
+      <hr class="sidebar-divider">
+      <div class="sidebar-heading">
+        <div class="version"><b>Sosial Media</b></div>
+      </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://www.instagram.com/drak_ipul123/">
+          <i class="fab fa-fw fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ">
+          <i class="fab fa-fw fa-youtube"></i>
+          <span>Youtube</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://www.facebook.com/raraharsita2">
+          <i class="fab fa-fw fa-facebook"></i>
+          <span>Facebook</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://github.com/saipulanuar">
+          <i class="fab fa-fw fa-github"></i>
+          <span>Github</span>
+        </a>
+      </li>
+      <hr class="sidebar-divider">
+      <li class="nav-item">
+        <div class="sidebar-heading">
+        <div class="version"><b>Lainnya</b></div>
+      </div>
+        <a class="nav-link collapsed" href="https://tiktok.com/@raraharsita2">
+          <i class="fas fa-fw fa-fire"></i>
+          <span>Tiktok</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://saweria.co/raraharsita2">
+          <i class="fas fa-fw fa-donate"></i>
+          <span> Donate</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/bioku">
+          <i class="fas fa-info-circle"></i>
+          <span> Tentang</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL">
+          <i class="fas fa-fw fa-robot"></i>
+          <span>Whatsapp Bot</span>
+        </a>
+      </li>
+    </ul>
+    <!-- Sidebar -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content" style=" background-image: url(https://pingendo.com/site-assets/cover.jpg);  background-position: top left;  background-size: 100%;  background-repeat: repeat;">
+        <!-- TopBar -->
+        <nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top bg-info">
+          <button id="sidebarToggleTop" class="btn btn-link mr-1">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown no-arrow">
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-1 small" placeholder="What do you want to look for?" aria-label="Search" aria-describedby="basic-addon2" style="border-color: #3f51b5;">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+            <style> .qon {
+  float: left;
+  width: 100%;
+  padding: 1%;
+  margin: 1% 10%;
+  height: 40px;
+  border-radius: 0.3em;
+  box-shadow: 0 0.1em 0.4em;
+}
+</style>
+            <div class="topbar-divider d-none d-sm-block"></div>
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <marquee class="qon" direction="left" onmouseover="stop()" onmouseout="start()">Selamat Datang Di Rest Api Saipul Anuar Jangan Lupa Donasi Seikhlasnya Untuk Memperbaiki Fitur Yang Belum Work...!!!</marquee>
+                <img class="img-profile rounded-circle" src="https://i.ibb.co/jfZVKmC/babi2.jpg" style="max-width: 60px">
+                <span class="ml-2 d-none d-lg-inline text-white small">Im King Of Bear</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="/about">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> About </a>
+                <a class="dropdown-item" href="https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Repport Bug </a>
+                <a class="dropdown-item" href="https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i> Joint My Group </a>
+                <a class="dropdown-item" href="/users/logout">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-comments"></i>
+              </a>
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <a class="dropdown-item d-flex align-items-right" href="#">
+                  <div>
+                    <center>
+                    <iframe src="https://www5.cbox.ws/box/?boxid=931891&boxtag=EVuGu9" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+                  </center>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-info-circle"></i>
+              </a>
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header"> Your Android/PC </h6>
+                <a class="dropdown-item d-flex align-items-right" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <lord-icon src="https://cdn.lordicon.com/wrprwmwt.json" trigger="loop" colors="primary:#ffffff,secondary:#ffffff" stroke="80" style="width:70px;height:70px">
+                      </lord-icon>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">Agent</div>
+                    <div id="demo" class="alert alert-info alert-dismissible" role="alert">
+                      <div id="Statistic"></div>
+                      <span id="tgl">Waiting</span> - <span id="bln">Connection</span> - <span id="thn"></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <span class="badge badge-danger badge-counter">1+</span>
+              </a>
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header"> Notifikasi </h6>
+                <div class="dropdown-item d-flex align-items-right" style="background-image: url(https://www.thepaintstoreonline.com/wp-content/uploads/2018/05/100280.jpg)">
+                  <div class="mr-3">
+                   <div id="crito">Kalo ada yang error kabarin ya..!!! Jangan Lupa donasi...</div>
+                  </div>
+                  <div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <!-- Topbar -->
+        <!-- Container Fluid-->
+        <div class="container-fluid" id="container-wrapper">
+        <div id="notifini"></div>
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-100">API MENU</h1>
+            <ol class="breadcrumb">
+              <li style="color: white;" class="breadcrumb-item"><a href="./">Home</a></li>
+              <li class="breadcrumb-item active" style="color: white;" aria-current="page">Dasboard</li>
+            </ol>
+          </div>
+          <div class="row mb-3">
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Total repeat visitors</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800" id="visits">
+                        <div class="spinner-grow" role="status">
+                          <span class="sr-only">Loading...</span>
+                        </div>
+                      </div>
+                      <div class="mt-2 mb-0 text-muted text-xs">
+                        <span class="text-success mr-2"><i class="fa fa-arrow-up"></i>+ ditonton</span>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json" trigger="loop-on-hover" delay="9" colors="primary:#121331,secondary:#08a88a" style="width:70px;height:70px">
+                      </lord-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">IP ADDRESS</div>
+                      <div class="h6 mb-0 font-weight-bold text-gray-800" id="gfg">
+                        <div class="spinner-grow" role="status">
+                          <span class="sr-only">Loading...</span>
+                        </div>
+                      </div>
+                      <div class="mt-2 mb-0 text-muted text-xs">
+                        <p>Your IP Address</p>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <lord-icon src="https://cdn.lordicon.com/wrprwmwt.json" trigger="loop" colors="primary:#121331,secondary:#08a88a" style="width:70px;height:70px">
+                      </lord-icon>
+                    </div>
+                  </div>
+                  <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus"
+                    title="IP ADDRESS"
+                    data-content="Internet Protocol Address adalah label numerik yang ditetapkan untuk setiap perangkat yang terhubung ke jaringan komputer yang menggunakan Protokol Internet untuk komunikasi." aria-hidden="true"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Earnings (Annual) Card Example -->
+            <div class="col-xl-5 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">APIKEY DEFAULT</div>
+                      <span class="h5 mb-0 font-weight-bold text-gray-800">Cukup Donasi Seikhlasnya aja</span>
+                      <span class="h5 mb-0 font-weight-bold text-gray-800" id="limit">
+                        <div class="spinner-grow" role="status">
+                          <span class="sr-only">Loading...</span>
+                        </div>
+                      </span>
+                      <div class="mt-2 mb-0 text-muted text-xs">
+                        <span id="lucast">Load</span><p id="speed-test"></p>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <lord-icon src="https://cdn.lordicon.com/anihkfxp.json" trigger="loop" colors="primary:#121331,secondary:#08a88a" style="width:70px;height:70px">
+                      </lord-icon>
+                    </div>
+                  </div>
+                  <h4></h4>
+                  <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus"
+                    title="APIKEY"
+                    data-content="APIKEY atau Kunci antarmuka pemrograman aplikasi adalah pengidentifikasi unik yang digunakan untuk mengautentikasi pengguna, pengembang, atau program panggilan ke API. Namun, mereka biasanya digunakan untuk mengotentikasi proyek dengan API daripada pengguna manusia."><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- New User Card Example -->
+            <div class="col-xl-6 col-md-6 mb-4">
+              <script> window.onload = function() { jam(); }
+
+ function jam() {
+  var e = document.getElementById('jam'),
+  d = new Date(), h, m, s;
+  h = d.getHours();
+  m = set(d.getMinutes());
+  s = set(d.getSeconds());
+
+  e.innerHTML = h +':'+ m +':'+ s;
+
+  setTimeout('jam()', 1000);
+ }
+
+ function set(e) {
+  e = e < 10 ? '0'+ e : e;
+  return e;
+ }
+      </script>
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1">Waktu</div>
+                      <div class="h4 mb-0 font-weight-bold text-gray-800" id="jam">
+                        <div class="spinner-border spinner-border-sm" role="status">
+                          <span class="sr-only">
+                            <div class="spinner-border spinner-border-sm" role="status">
+                              <span class="sr-only">Loading...</span>
+                            </div>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <lord-icon src="https://cdn.lordicon.com/kbtmbyzy.json" trigger="loop-on-hover" colors="primary:#121331,secondary:#08a88a" style="width:75px;height:75px">
+                      </lord-icon>
+                    </div>
+                  </div><br>
+                  <div class="text-xs font-weight-bold text-uppercase mb-1">Waktu Stanby</div>
+                  <div class="h6 mb-0 font-weight-bold text-gray-800" id="bear">
+                    <div class="spinner-border spinner-border-sm" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-md-6 mb-4">
+              <form action="/api/cekKey?">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col mr-2">
+                        <i class="fas fa-fw fa-key"></i>
+                        <div class="h6 mb-0 font-weight-bold text-dark-800 text-uppercase">
+                          <div class="text-xs font-weight-bold text-uppercase mb-1">CEK APIKEY</div>
+                        </div>
+                        <input type="password" class="form-control" placeholder="Check Your apikey" name="apikey" required=""><br>
+                        <button class="btn btn-danger btn-icon-split">
+                          <span class="text">CHECK</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Pie Chart -->
+            <!-- Invoice Example -->
+            <style> .btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  background: #00b7e0;
+  padding: 8px 20px 7px 20px;
+  border: solid #00ccff 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0389ff;
+  text-decoration: none;
+}
+</style>
+<style>
+:root {
+  --surface-color: #fff;
+  --curve: 20;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #fef8f8;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: block;
+  height: 100%;  
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card__image {      
+  width: 100%;
+  height: auto;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;      
+  border-radius: calc(var(--curve) * 1px);    
+  background-color: var(--surface-color);      
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;    
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.card__arc {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;      
+  z-index: 1;
+}
+
+.card__arc path {
+  fill: var(--surface-color);
+}       
+
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;      
+  border-radius: 50%;      
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: #6A515E;
+}
+
+.card__tagline {
+  display: block;
+  margin: 1em 0;
+  font-family: "MockFlowFont";  
+  font-size: .8em; 
+  color: #D7BDCA;  
+}
+
+.card__status {
+  font-size: .8em;
+  color: #D7BDCA;
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: #D7BDCA;
+  font-family: "MockFlowFont";   
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}    
+</style>
+            <div class="col-xl-5 col-md-5 mb-4">
+              <!-- Modal with scrolling long content -->
+              <div class="card mb-2">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Cara penggunaan</h6>
+                </div>
+                <div class="card-body">
+                  <p>Example ada dibawah ini, untuk cara penggunaan rest api bear. Maaf tidak lengkap ownernya kurang niat</p><code class="highlighter-rouge">EXAMPLE CODE</code>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong"
+                    id="#modalLong">Code</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong1"
+                    id="#modalLong1">Run Code</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-md-5 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <h6 class="m-0 font-weight-bold text-primary">PAPAN PENGUMUMAN</h6>
+                      <div class="mt-2 mb-0 text-muted text-xs">
+                        <p>TIDAK ADA PENGUMUMAN</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Run code</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>DIUPDATE BANK</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+                  <a href="./search.html" class="btn btn-primary">Api docs</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- Datatables -->
+          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Example Code</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                <h5 class="font-weight-bold">NodeJS GET</h5>
+                  <script src="https://gist.github.com/saipulanuar/cb230dfd60b8c8fb131ed5d930c0dcf3.js"></script>
+                  <h5 class="font-weight-bold">PHP GET</h5>
+                  <script src="https://gist.github.com/saipulanuar/f4214b5084a859326f320900f2202169.js"></script>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!---Container Fluid-->
+          </div>
+          <script type="text/javascript">
+          document.getElementById('resultRAM').innerHTML = navigator.deviceMemory || 'unknown'
+          document.getElementById('resultic').innerHTML = navigator.deviceMemory || 'unknown'
+          document.getElementById('agen').innerHTML = navigator.userAgent
+          var devicek = navigator.deviceMemory
+        if(devicek == 1){
+          alert('Apakah yakin ingin menggunakan rest api king of bear dibawah ram 4GB')
+          const respuker = `
+          <div class="progress" style="height: 14px;">
+                    <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="3"
+                      aria-valuemin="0" aria-valuemax="4"></div>
+                  </div><br><p>Ram kamu terlalu rendah untuk menggunakan rest api ini</p>`
+            document.getElementById('progresRAM').innerHTML = respuker || 'unknown'
+        }
+        if(devicek == 2){
+          const respuker = `
+          <div class="progress" style="height: 14px;">
+                    <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="3"
+                      aria-valuemin="0" aria-valuemax="4"></div>
+                  </div><br><p>Ram kamu terlalu rendah untuk menggunakan rest api ini</p>`
+            document.getElementById('progresRAM').innerHTML = respuker || 'unknown'
+        }
+        if(devicek == 3){
+          const respuker = `
+          <div class="progress" style="height: 14px;">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="3"
+                      aria-valuemin="0" aria-valuemax="4"></div>
+                  </div><br><p>Ram kamu memadai silahkan menggunakan rest api ini</p>`
+            document.getElementById('progresRAM').innerHTML = respuker || 'unknown'
+        }
+        if(devicek == 4){
+          const respuker = `
+          <div class="progress" style="height: 14px;">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="3"
+                      aria-valuemin="0" aria-valuemax="4"></div>
+                  </div><br><p>Ram kamu memadai silahkan menggunakan rest api ini</p>`
+            document.getElementById('progresRAM').innerHTML = respuker || 'unknown'
+        }
+          </script>
+          <!-- Footer -->
+          <!-- Footer -->
+        </div>
+        <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+              <div class="copyright text-center my-auto">
+                <span>copyright © <script>
+                    document.write(new Date().getFullYear());
+                  </script> - developed by <b><a href="#" target="_blank">ᴹᴿ᭄ Saipul Anuar ×፝֟͜×</a></b>
+                </span>
+              </div>
+            </div>
+          </footer>
+      </div>
+      <!-- Scroll to top -->
+      <script async="" src="https://api.countapi.xyz/hit/studiovdk.herokuapp.com/visits?callback=cb"></script>
+      <script src="public2/vendor/jquery/jquery.min.js"></script>
+      <script src="public2/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="public2/vendor/jquery-easing/jquery.easing.min.js"></script>
+      <script src="public2/js/ruang-admin.js"></script>
+      <script src="public2/js/dashboard.js"></script>
+      <script src="public2/vendor/chart.js/Chart.min.js"></script>
+      <script src="public2/js/demo/chart-area-demo.js"></script>
+      <script src="public2/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+      <script src="public2/vendor/datatables/jquery.dataTables.min.js"></script>
+      <script src="public2/js/ruang-admin.js"></script>
+      <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=7ae7e40116347' async='true'></script> 
+      <script type="text/javascript">
+   window.$crisp=[];
+   window.CRISP_WEBSITE_ID="baf67977-e227-4118-8639-71498773ab3b";
+   (function(){d=document;s=d.createElement("script");
+   s.src="https://client.crisp.chat/l.js";
+   s.async=1;
+   d.getElementsByTagName("head")[0].appendChild(s);
+   })();
+   </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          vikoapi();
+        })
+        document.addEventListener("DOMContentLoaded", function() {
+        startTime();
+        })
+      </script>
+      <script>
+        $(document).ready(function() {
+          $('#dataTable').DataTable(); // ID From dataTable 
+          $('#dataTableHover').DataTable(); // ID From dataTable with Hover
+        });
+      </script>
+    </div>
+  </div>
+</body>
+</html>
