@@ -59,7 +59,6 @@ txt += "<p><b>Version Browser</b>: <br>" + navigator.appVersion + "</p>";
 txt += "<p><b>Language</b>: " + navigator.language + "</p>";
 txt += "<p><b>Browser</b>: " + navigator.appCodeName + "</p>";
 txt += "<p><b>Vendor</b>: " + navigator.vendor + "</p>";
-txt += "<p><b>Cookies</b>: " + navigator.cookieEnabled + "</p>";
 txt += "<p><b>Platform</b>: " + navigator.platform + "</p>";
 
 document.getElementById("statistic").innerHTML = txt;
