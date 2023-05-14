@@ -2,7 +2,6 @@ arrBulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agu
 var txt = "";
 
 txt += "<p><b>Browser</b>: " + navigator.appCodeName + "</p>";
-txt += "<p><b>Cookies</b>: " + navigator.cookieEnabled + "</p>";
 txt += "<p><b>Platform</b>: " + navigator.platform + "</p>";
 txt += "<p><b>User Agent</b>: " + navigator.userAgent + "</p>";
 txt += "<p><b>App name</b>: " + navigator.appName + "</p>";
