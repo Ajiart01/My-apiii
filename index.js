@@ -7,7 +7,7 @@ var app = express();
 var createError = require('http-errors');
 var favicon = require('serve-favicon');
 var path = require('path');
-var cookieParser = require('cookie-parser');
+
 
 //
 cors = require('cors'),
@@ -28,7 +28,7 @@ app.set('trust proxy', true);
 app.set("json spaces",2)
 app.use(cors())
 app.use(secure)
-app.use(cookieParser());
+
 app.use(express.static("assets"))
 app.use('/', main)
 app.use('/api', api)
